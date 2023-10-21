@@ -3,12 +3,10 @@ pragma solidity >=0.8.13;
 
 library LoanLibrary {
    struct Lender {
-        uint64[] requirementIds; //to be mapped research connection
         address lender; // Vault Address create vault
     }
 
     struct Borrower {
-        bool requirementsMet; //result of the validation query as parameter
         address borrower;
     }
 
@@ -25,9 +23,10 @@ library LoanLibrary {
     }
 
     struct Offer {
-        uint64[] requirementIds;
         uint256 loanOfferAmount;
         uint256 interestRate;
         address lender;
+        uint256 minAmount; // Added minimum amount for freelancing contracts
+        uint64 skillBadge; // Added required skill badge for freelancing contracts
     }
-}
+    }
