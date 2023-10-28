@@ -19,7 +19,7 @@ def data_collection():
             timing = str(input(f"Was their loan {counter} handed in early, ontime or late: "))
         
         if timing.lower() == "early":
-            scores.append(105)
+            scores.append(102.5)
             counter += 1
             loops += 1
 
