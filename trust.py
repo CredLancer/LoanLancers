@@ -38,7 +38,7 @@ def data_collection():
                 print("Please enter a positive number")
                 late = float(input("Please enter how many days late the loan was: "))
 
-            if late >= 20.0:
+            if late >= 40.0:
                 scores.append(0)
 
             else:
@@ -92,6 +92,6 @@ def main():
     scores = data_collection()
     time_late = late_early_points(scores)
     trust_score = trust_score_calc(scores, time_late)
-    print(trust_score)
+    print(f"Your trust score is {trust_score}")
 
 main()
