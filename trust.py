@@ -19,7 +19,7 @@ def data_collection():
             timing = str(input(f"Was their loan {counter} handed in early, ontime or late: "))
         
         if timing.lower() == "early":
-            scores.append(102.5)
+            scores.append(102)
             counter += 1
             loops += 1
 
@@ -38,11 +38,11 @@ def data_collection():
                 print("Please enter a positive number")
                 late = float(input("Please enter how many days late the loan was: "))
 
-            if late >= 40.0:
+            if late >= 20.0:
                 scores.append(0)
 
             else:
-                late_score = 100 - (2.5 * late)
+                late_score = 100 - (5 * late)
                 scores.append(late_score)
 
     return scores
