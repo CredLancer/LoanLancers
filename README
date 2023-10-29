@@ -1,0 +1,13 @@
+Hello Everyone.  
+Let me introduce you to our main characters: pepe and harry. 
+Pepe is a young freelancer who is looking for a loan to pursue his masters. He does not have the collateral for the loan but he sure does have the knowledge and skills to prove himself worthy.  
+Here’s where Loan Lancers come to the play. We are here to provide the loan to the freelancers / students based their talent skill and knowledge. We are basically providing you a non-collateral Talent backed loan.  
+Loan Lancers will scan the vault address to determine skill credentials and open contracts with Escrow. Based on the Escrow limit the loan limit is decided. For ex, if skill matches 50% he’ll get 50% of loan. And if it matches 100%, he’ll get 100% of the escrow amount.  
+After all the analysis Loan Lancers will show the eligible loan amount to pepe (Student). He can then select yes / No for the proposed request. 
+Now comes Harry, a rich investor who can view all the eligible students availing for the loan. He can then select the student he wishes to sponsor(Let’s say pepe). A smart contract is open between pepe and Harry till pepe pay’s off his money. On completion of the payment pepe will earn a newly minted trust credential. This credential will depend upon timeline of the payment. If he’s early he will get extra points, if he’s late some credits will be deducted.  
+In the end, both pepe and harry are happy. Pepe gets to pursue his passion and harry gets to help someone. 
+Loan Lancers is the project for the students, by the students. We strongly believe that the Only collateral you need to worry about is your talent.
+
+Bounties:
+
+We will implement Loan Lancers using Scaffold-ETH
